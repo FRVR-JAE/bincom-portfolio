@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TJ's portfolio</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+  </head>
+
+  <body onload="move()" data-bs-spy="scroll" data-bs-target=".navbar">
+    <div id="preloader">
+      <div id="percent">1%</div>
+      <div id="bar">
+        <div id="barconfrm"></div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="h3 fw-bold d-block d-lg-none">TJ Oloyede</span>
+          <img
+            src="./assets/images/tj.jpg"
+            class="d-none d-lg-block rounded-circle"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pictures">Pictures</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- //NAVBAR -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+      <!-- HOME -->
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'M A <span class="text-brand">Frontend Developer</span> from
+                lagos, Nigeria
+              </h1>
+              <p
+                class="text-black lead mt-2 mb-4"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                Front-end developer with 6+ years of experience designing and
+                building responsive web design and mobile apps in the financial
+                industry. Proficient with CSS and JS Frameworks such
+                React,Express js ,Node js,Mongo DB, with extensive knowledge of
+                UX and user psychology.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                <a href="#" class="link-custom"
+                  ><i class="ri-phone-fill"></i> (090) 3336 4819</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //HOME -->
+
+      <!-- SERVICES -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">SERVICES</h6>
+              <h1>Services That I Provide</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-feather"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Web Developement</h5>
+                <p>
+                  I craft high-performing and delightful experiences tailored
+                  and conversion-focused.
+                </p>
+                <a href="#" class="link-custom"></a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-pencil-ruler"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Figma to Code</h5>
+                <p>
+                  I craft high-performing and delightful experiences tailored
+                  and conversion-focused
+                </p>
+                <a href="#" class="link-custom"></a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Web Designing</h5>
+                <p>
+                  I craft high-performing and delightful experiences tailored
+                  and conversion-focused
+                </p>
+                <a href="#" class="link-custom"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICES -->
+
+      <!-- WORK -->
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">WORK</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/project-1.PNG"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>E-commerce website</h4>
+                  <p>
+                    E-commerce protoype website made for a client .
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/project-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>E-commerce website</h4>
+                  <p>
+                    E-commerce website made for Techspot.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/project-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Job-Portal site</h4>
+                  <p>
+                    Job-portal website made for Anchorsoft Academy.
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./assets/images/project-4.png"
+                    alt=""
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Music web-application</h4>
+                  <p>
+                    Music web-application
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img
+                      class="rounded-4"
+                      src="./assets/images/project-5.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>E-commerce Perfume webpage</h4>
+                    <p>
+                      E-commerce prototype 
+                    </p>
+                    <a href="#" class="link-custom">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img
+                      class="rounded-4"
+                      src="./assets/images/project-6.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Full-stack Dash-board</h4>
+                    <p>
+                      Full-stack(mern) Dahsboard made for aDash.
+                    </p>
+                    <a href="#" class="link-custom">Read More</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+
+      <!-- EXPERIENCE-->
+      <section id="experience" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">EXPERIENCE</h6>
+              <h1 clas="text-subtitle"></h1>
+            </div>
+          </div>
+
+          <div class="row gy-5">
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                My Work Experience
+              </h3>
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4> Frontend Engineer</h4>
+                    <p class="text-brand mb-2">
+                      MVAA | ikeja, lagos | 02/2022 - 12/2022
+                    </p>
+                    <p class="mb-0">
+                     - Extensive usage of JavaScript, React Js, Node Js,
+                      Bootstrap, Tailwind, Material UI, JQuery/AJAX, JSON,HTML5,
+                      CSS3. <br> - Developed certain features of the application
+                      functionality i.e. CRUD(Create, Read, Update, Delete) and
+                      responsive design. <br> - Implemented React JS for reusable
+                      components (multi-field form elements), background file
+                      uploads. <br> - Responsible for implementing UI mockups,
+                      integrating third part React libraries, and
+                      handling/creating Redux store data.<br> - Worked with Node
+                      Packet Manager , Mongo DB and used React JS library
+                      functions for the logical implementation part client side
+                      for all application. <br> - Implemented React JS Controllers to
+                      maintain each view data. <br> - Environment: Html 5, CSS 3, LESS,
+                      SASS, JavaScript, ES6, React JS, Axios, GraphQL, NODE JS,
+                      Mongo DB, Express JS, JSON, XML, AWS, NPM, Visual Studio
+                      Code.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>
+                      Front End Web Developer 
+                    </h4>
+                    <p class="text-brand mb-2">Sparkly Affiliate | Ikeja, lagos | 08/2021 - 01/2022</p>
+                    <p class="mb-0">
+                       - Web design and development, application development using HTML, CSS, React, Bootstrap, Tailwind.
+                       <br> -
+                        Designed dynamic and multi-browser compatible pages using HTML, CSS, JavaScript, REACT and also developer
+                        responsive interface using Bootstrap,Tailwind and SASS,LESS for CSS.
+                        <br> -
+                        Created and deployed new features in order to sustain and amend existing applications under MVC pattern using Node.js,
+                        React js ,Bootstrap or Tailwind and Express.
+                        <br> -
+                        Developed the Frontend by using React, JavaScript,React router dom , Redux Toolkit by Package manager NPM.
+                        <br> -
+                        Developed cross-browser/platform HTML 5, CSS3, and JavaScript to match design specs for complex page layouts while
+                        adhering to code standards.
+                        <br> -
+                        Responsible for parsing JSON data to & from the server for presentation & storage purposes in the project .
+                        <br> -
+                        Environment: Html 5, CSS 3, LESS, SASS, JavaScript, ES6, React JS,Redux, NODE JS, Mongo DB, Express JS,
+                        JSON,XML, AWS.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Front End Engineer</h4>
+                    <p class="text-brand mb-2">
+                        Task Culture | Ikeja, lagos | 04/2019 - 08/2021
+                    </p>
+                    <p class="mb-0">
+                        - Web design and development, application development using HTML, CSS, React, Bootstrap, Tailwind.
+                        <br> -
+                        Designed dynamic and multi-browser compatible pages using HTML, CSS, JavaScript, REACT and also developer
+                        responsive interface using Bootstrap,Tailwind and SASS,LESS for CSS.
+                        <br> -
+                        Created and deployed new features in order to sustain and amend existing applications under MVC pattern using
+                        Node.js,React js ,Bootstrap or Tailwind and Express.
+                        <br> -
+                        Developed the Frontend by using React, JavaScript,React router dom , Redux Toolkit by Package manager NPM.
+                        <br> -
+                        Developed cross-browser/platform HTML 5, CSS3, and JavaScript to match design specs for complex page layouts while
+                        adhering to code standards.
+                        <br> -
+                        Responsible for parsing JSON data to & from the server for presentation & storage purposes in the project .
+                        <br> -
+                        Environment: Html 5, CSS 3, LESS, SASS, JavaScript, ES6, React JS,Redux, NODE JS, Mongo DB, Express JS,
+                        JSON,XML, AWS.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <h3 class="mb-4" data-aos="fade-up" data-aos-delay="400">
+                2017-2023
+              </h3>
+              <div class="row gy-4">
+                
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>
+                      Front End Web Developer/Designer
+                    </h4>
+                    <p class="text-brand mb-2">Bouchard Agency | yaba, lagos | 06/2017 -
+                      03/2019</p>
+                    <p class="mb-0">
+                     - Worked with an agile team of 12 members and provided
+                      end-to-end solutions for clients <br> - I had the responsibility
+                      to train 4 people the front-end basics and helped them
+                      develop further Daily maintenance of code, <br> - debugging
+                      issues and solving clients’ problems Gathered requirements
+                      and assembled team of web developers and UX designers to
+                      build out new ticketing system, <br> - generating a scalable
+                      e-commerce platform that served millions of users per day
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>Junior Frontend Developer</h4>
+                    <p class="text-brand mb-2">
+                      Macroonz | ikeja, lagos | 02/2016 - 06/2017
+                    </p>
+                    <p class="mb-0">
+                      
+                      -
+                      Partnered with web developers and software developers to
+                      create a mobile application for insurance customers, which
+                      included supporting back-end development and UI design.
+                      <br> -
+                      Developed my team-work skills by working in close
+                      collaboration with 6 other students. <br> -
+                      Developed prototypes, user interface design, and
+                      wireframes for the company website of a client, which
+                      included creating landing pages. <br> -
+                      Led the integration of a customer service chat
+                      functionality to answer user questions and schedule.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //ABOUT -->
+
+            <!-- EDUCATION -->
+
+
+            <section id="education" class="full-height px-lg-5">
+                <div class="container">
+                  <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                      <h6 class="text-brand">EDUCATION</h6>
+                      <h1 clas="text-subtitle"></h1>
+                    </div>
+                  </div>
+                  <div class="row gy-5">
+                    <div class="col-lg-6">
+                      <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                        My Education
+                      </h3>
+                      <div class="row gy-4">
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                          <div class="bg-base p-4 rounded-4 shadow-effect">
+                            <h4>Django Fullstack web development</h4>
+                            <p class="text-brand mb-2">
+                              Anchorsoft Academy | ikeja, lagos 
+                            </p>
+                            <p class="mb-0">
+                              -  Good experience in developing web applications implementing MVC (Model, View ,Control) architecture .
+                             <br> -   Knowledge about setting up Python REST API Framework using Django . <br> -
+                                Strengthened my knowledge of Frontend Web development.
+                               <br> - Made a job portal with HTLM 5, CSS3, DJANGO.
+                            </p>
+                          </div>
+                        </div>
+        
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                          <div class="bg-base p-4 rounded-4 shadow-effect">
+                            <h4>
+                             Bsc Human Resource Management 
+                            </h4>
+                            <p class="text-brand mb-2">Escae Universitie | Benin, cotonou </p>
+                            
+                          </div>
+                        </div>
+                  </div>
+                  </section>
+
+            <!-- //EDUCATION -->
+
+      <!-- PICTURES -->
+      <section id="pictures" class="full-height px-lg-5">
+
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">PICTURES</h6>
+                        <h1>pICTURES OF ME AND MY FRIENDS </h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/seun.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/tj.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/rigo.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/tjj.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/ceasar.jpg" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+      </section>
+      <!-- //PICTURES -->
+
+
+      <!-- CONTACT -->
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8 pb-4" data-aos="fade-up">
+              <h6 class="text-brand">CONTACT</h6>
+              <h1>Interested in working together? Let's talk</h1>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+              <form action="#" class="row g-lg-3 gy-3">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter subject"
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <textarea
+                    name=""
+                    rows="4"
+                    class="form-control"
+                    placeholder="Enter your message"
+                  ></textarea>
+                </div>
+                <div class="form-group col-12 d-grid">
+                  <button type="submit" class="btn btn-brand">
+                    Contact me
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //CONTACT -->
+
+      <!-- FOOTER -->
+      <footer class="py-5 px-lg-5">
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">
+                Designed by <a href="#" class="fw-bold">TJ oloyede</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <div class="social-icons">
+                <a href="#"><i class="lab la-twitter"></i></a>
+                <a href="#"><i class="lab la-instagram"></i></a>
+                <a href="#"><i class="lab la-dribbble"></i></a>
+                <a href="#"><i class="lab la-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
+    </div>
+    <!-- //CONTENT WRAPPER -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+      const tll = gsap.timeline({
+        paused: "true",
+      });
+      tll.to("#percent, #bar", {
+        duration: 0.2,
+        opacity: 0,
+        zIndex: -1,
+      });
+      tll.to("#preloader", {
+        duration: 0.8,
+        width: "0%",
+      });
+      tll.from(
+        ".navbar",
+        {
+          duration: 0.6,
+          x: "-150%",
+        },
+        "-=.2"
+      );
+      tll.to(".container", {
+        y: "-10%",
+        stagger: {
+          amount: 0.4,
+        },
+      });
+      var width = 1;
+      var bar = document.getElementById("barconfrm");
+      var id;
+      function move() {
+        id = setInterval(frame, 10);
+      }
+      function frame() {
+        if (width >= 100) {
+          clearInterval(id);
+          tll.play();
+        } else {
+          width++;
+          bar.style.width = width + "%";
+          document.getElementById("percent").innerHTML = width + "%";
+        }
+      }
+
+     
+
+
+
+
+      
+    </script>
+  </body>
+</html>
